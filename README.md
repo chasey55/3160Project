@@ -6,7 +6,8 @@ Group project for ITCS 3160 -  Database Design and Implementation
 *Headings are placeholders. Sections will be completed as the project progresses*
 
 ## Introduction
-*text here*
+Our main objective for the project is to understand a test database for a campus controlled food delivery service and enhance it with a rating system for restaurants and delivery drivers. This GitHub site is to hold all of the work that is completed from each deliverable for the project. We are only expanding upon an existing prototype of the test database and not implementing a full model. The following documents and bodies of text highlight the work our group has completed in order to understand the test database and present our implementation of the rating system.,
+The test database was designed by a previous team of the course, the "Mavericks".
 <br/>
 <br/>
 ## Use Case for Rating System
