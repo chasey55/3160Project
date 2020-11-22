@@ -29,7 +29,7 @@ Business Rules
 
 •	Each restaurant has to be approved within the system.
 
-•	There will be a rating system to rate each restaurant. 
+•	There will be a rating system to rate each restaurant and driver. 
 <br/>
 <br/>
 ## EERD
