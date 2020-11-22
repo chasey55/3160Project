@@ -11,7 +11,7 @@ The test database was designed by a previous team of the course, the "Mavericks"
 <br/>
 <br/>
 ## Use Case for Rating System
-*text here*
+![](3160Project/UseCase_Del2.png)
 <br/>
 <br/>
 ## Business Rules
