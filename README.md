@@ -11,7 +11,7 @@ The test database was designed by a previous team of the course, the "Mavericks"
 <br/>
 <br/>
 ## Use Case for Rating System
-![Image of 3160 Project Use Case for Rating System](https://github.com/chasey55/3160Project/blob/main/UseCase_Del2.png)
+![Image of 3160 Project Use Case for Rating System](https://github.com/chasey55/3160Project/blob/main/images/Rating%20Use%20Case%20Diagram.png)
 <br/>
 <br/>
 ## Business Rules
@@ -19,7 +19,7 @@ The test database was designed by a previous team of the course, the "Mavericks"
 <br/>
 <br/>
 ## EERD
-![Image of 3160 Project EERD](https://github.com/chasey55/3160Project/blob/main/Campus%20Eats%20EERD%20Final.png)
+![Image of 3160 Project EERD](https://github.com/chasey55/3160Project/blob/main/images/Campus%20Eats%20EERD.png)
 <br/>
 <br/>
 ## MySQL Queries
