@@ -15,7 +15,14 @@ The test database was designed by a previous team of the course, the "Mavericks"
 <br/>
 <br/>
 ## Business Rules
-*text here*
+Business Rules 
+•	This web service will be able to support three types of users(Campus faculty, Staff, Students)
+•	Each of the persons will sign up with the system and will be able to include name, email, cell and etc. 
+•	Each persons can only have one account under their name. 
+•	Students can be drivers if and only if they are approved. 
+•	A person can order food one to many times, but the order can only come from one restaurant, each order has a $5 dollar delivery fee, each order is tied to one person.
+•	Each restaurant has to be approved within the system.
+•	There will be a rating system to rate each restaurant. 
 <br/>
 <br/>
 ## EERD
