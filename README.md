@@ -22,6 +22,10 @@ The test database was designed by a previous team of the course, the "Mavericks"
 ![Image of 3160 Project EERD](https://github.com/chasey55/3160Project/blob/main/images/Campus%20Eats%20EERD.png)
 <br/>
 <br/>
+## Data Dictionary
+*text here*
+<br/>
+<br/>
 ## MySQL Queries
 *text here*
 <br/>
