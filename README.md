@@ -33,7 +33,7 @@ Business Rules
 <br/>
 <br/>
 ## EERD
-![Image of 3160 Project EERD](https://github.com/chasey55/3160Project/blob/main/images/Campus%20Eats%20EERD.png)
+![Image of 3160 Project EERD](https://github.com/chasey55/3160Project/blob/main/images/Campus%20Eats%20EERD%20Final.png)
 <br/>
 <br/>
 ## Data Dictionary
