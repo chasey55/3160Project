@@ -19,7 +19,7 @@ The test database was designed by a previous team of the course, the "Mavericks"
 <br/>
 <br/>
 ## EERD
-*text here*
+![Image of 3160 Project EERD](https://i.imgur.com/GKlmsDv.png)
 <br/>
 <br/>
 ## MySQL Queries
