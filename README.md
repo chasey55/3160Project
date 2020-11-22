@@ -15,7 +15,7 @@ The test database was designed by a previous team of the course, the "Mavericks"
 <br/>
 <br/>
 ## Business Rules
-Business Rules 
+                              Business Rules 
 •	This web service will be able to support three types of users(Campus faculty, Staff, Students)
 •	Each of the persons will sign up with the system and will be able to include name, email, cell and etc. 
 •	Each persons can only have one account under their name. 
