@@ -37,7 +37,7 @@ Business Rules
 <br/>
 <br/>
 ## Data Dictionary
-![Image of 3160 Project Data Dictionary](https://github.com/chasey55/3160Project/blob/main/images/Data%20Dictionary%20Deliverable%202%20Group%2020.pdf) 
+![Image of 3160 Project Data Dictionary](https://github.com/chasey55/3160Project/blob/main/images/Data%20Dictionary%20Deliverable%202%20Group%2020.jpg) 
 <br/>
 <br/>
 ## MySQL Queries
