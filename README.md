@@ -38,6 +38,7 @@ Business Rules
 <br/>
 ## Data Dictionary
 https://bit.ly/3fmJp5I
+![Image of 3160 Project Data Dictionary]
 https://github.com/chasey55/3160Project/blob/main/images/Data%20Dictionary%20Deliverable%202%20Group%2020.pdf
 <br/>
 <br/>
