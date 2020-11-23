@@ -37,7 +37,7 @@ Business Rules
 <br/>
 <br/>
 ## Data Dictionary
-*text here*
+https://bit.ly/3nNrVTg
 <br/>
 <br/>
 ## MySQL Queries
