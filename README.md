@@ -68,8 +68,8 @@ BEGIN
 insert into rating (rating_id, person_id, restaurant_id, driver_id, score, description) 
 values(rating_id, person_id, restaurant_id, driver_id, score, descr);
 
-END
-```
+END ```
+
 <br/>
 <br/>
 ## Web/APP Implementation or Description of Future Work
