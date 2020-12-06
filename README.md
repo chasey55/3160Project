@@ -54,15 +54,31 @@ The datbase design contains 12 tables and has the following assumptions:
 <br/>
 ## MySQL Queries
 [Screenshots of select statements](https://github.com/chasey55/3160Project/tree/main/Screenshots%20of%20Select%20Statements)
-<br/>
-<br/>
+<br>
+## Functions
+
+The 'num_of_best_restaurants' is utilized to retrieve the number of restaurants that have a rating of 10.
+
+```mysql
+CREATE DEFINER=`root`@`localhost` FUNCTION `num_of_best_restaurants`() RETURNS int
+    DETERMINISTIC
+BEGIN
+DECLARE num_restaurants FLOAT; 
+SELECT COUNT(*) INTO num_restaurants
+FROM rating
+WHERE score = 10;
+
+RETURN num_restaurants;
+END ;
+```
+
 ## Stored Procedure
 [Stored Procedures](https://github.com/chasey55/3160Project/tree/main/Stored%20Procedures)
 
 One stored procedure for the database is the 'add_rating' procedure. The 'add_rating' procedure inserts the record followed by the attributes associated with the product. 
 
 
-```
+```mysql
 CREATE DEFINER=`root`@`localhost` PROCEDURE `add_rating`(in rating_id int(11), in person_id int(11), restaurant_id int(11), driver_id int(11), score FLOAT, descr VARCHAR(75))
 BEGIN
 
@@ -71,6 +87,7 @@ values(rating_id, person_id, restaurant_id, driver_id, score, descr);
 
 END
 ```
+
 
 ## Web/APP Implementation or Description of Future Work
 *text here*
