@@ -41,7 +41,7 @@ Business Rules
 <br/>
 <br/>
 ## MySQL Queries
-*text here*
+[Screenshots of select statementshttps](://github.com/chasey55/3160Project/tree/main/Screenshots%20of%20Select%20Statements)
 <br/>
 <br/>
 ## Stored Procedure
