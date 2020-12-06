@@ -57,7 +57,7 @@ The datbase design contains 12 tables and has the following assumptions:
 <br/>
 <br/>
 ## Stored Procedure
-[](https://github.com/chasey55/3160Project/blob/main/Stored%20Procedures/add_rating.sql)
+[](https://github.com/chasey55/3160Project/blob/767eea5ff4ce0bffedbd7c86e0529a0bbb6b9981/Stored%20Procedures/add_rating.sql#L1)
 [Stored Procedures](https://github.com/chasey55/3160Project/tree/main/Stored%20Procedures)
 <br/>
 <br/>
