@@ -57,7 +57,16 @@ The datbase design contains 12 tables and has the following assumptions:
 <br/>
 <br/>
 ## Stored Procedure
-![Stored Procedures](https://github.com/chasey55/3160Project/tree/main/Stored%20Procedures/add_rating.sql)
+[Stored Procedures](https://github.com/chasey55/3160Project/tree/main/Stored%20Procedures)
+```  
+CREATE DEFINER=`root`@`localhost` PROCEDURE `add_rating`(in rating_id int(11), in person_id int(11), restaurant_id int(11), driver_id int(11), score FLOAT, descr VARCHAR(75))
+BEGIN
+
+insert into rating (rating_id, person_id, restaurant_id, driver_id, score, description) 
+values(rating_id, person_id, restaurant_id, driver_id, score, descr);
+
+END
+```
 <br/>
 <br/>
 ## Web/APP Implementation or Description of Future Work
