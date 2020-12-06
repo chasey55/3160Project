@@ -69,7 +69,6 @@ insert into rating (rating_id, person_id, restaurant_id, driver_id, score, descr
 values(rating_id, person_id, restaurant_id, driver_id, score, descr);
 
 END
-mysql
 ``` 
 
 <br/>
