@@ -61,7 +61,8 @@ The datbase design contains 12 tables and has the following assumptions:
 
 One stored procedure for the database is the 'add_rating' procedure. The 'add_rating' procedure inserts the record followed by the attributes associated with the product. 
 
-```mysql 
+
+```
 CREATE DEFINER=`root`@`localhost` PROCEDURE `add_rating`(in rating_id int(11), in person_id int(11), restaurant_id int(11), driver_id int(11), score FLOAT, descr VARCHAR(75))
 BEGIN
 
@@ -70,8 +71,7 @@ values(rating_id, person_id, restaurant_id, driver_id, score, descr);
 
 END
 ```
-<br/>
-<br/>
+
 ## Web/APP Implementation or Description of Future Work
 *text here*
 <br/>
