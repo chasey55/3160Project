@@ -45,7 +45,7 @@ Business Rules
 <br/>
 <br/>
 ## Stored Procedure
-[Stored Procedures]https://github.com/chasey55/3160Project/tree/main/Stored%20Procedures
+[Stored Procedures](https://github.com/chasey55/3160Project/tree/main/Stored%20Procedures)
 <br/>
 <br/>
 ## Web/APP Implementation or Description of Future Work
