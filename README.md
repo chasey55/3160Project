@@ -57,7 +57,7 @@ The datbase design contains 12 tables and has the following assumptions:
 <br>
 ## Function
 
-The functions can be found inside the SQL dump file: [SQL Dump File](https://github.com/chasey55/3160Project/tree/main/SQL%20Dump%20File/Campus_Eats_Dump.sql)
+The functions can be found inside the [SQL Dump File](https://github.com/chasey55/3160Project/tree/main/SQL%20Dump%20File/Campus_Eats_Dump.sql)\
 The 'num_of_best_restaurants' is utilized to retrieve the number of restaurants that have a rating of 10.
 
 ```mysql
