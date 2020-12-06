@@ -53,7 +53,7 @@ Business Rules
 <br/>
 <br/>
 ## MySQL Dump
-*text here*
+[SQL Dump File](https://github.com/chasey55/3160Project/tree/main/SQL%20Dump%20File/Dump20201205)
 <br/>
 <br/>
 ## PPT Video
