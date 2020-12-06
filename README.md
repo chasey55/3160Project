@@ -33,6 +33,12 @@ Business Rules
 <br/>
 <br/>
 ## EERD
+The datbase design contains 12 tables and has the following assumptions:
+•	A person creates an order that belongs to a restaurant and driver.
+•	A driver can also be a student.
+•	Ratings for restuarants and drivers are assigned by a person after an order has been delivered.
+•	Each restuarant and driver has a score pertaining to them and is represented in the ratings table design.
+•	Each restuarant and driver has a description pertaining to them and is represented in the ratings table design.
 ![Image of 3160 Project EERD](https://github.com/chasey55/3160Project/blob/main/images/EERD.PNG)
 <br/>
 <br/>
