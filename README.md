@@ -33,17 +33,17 @@ Business Rules
 <br/>
 <br/>
 ## EERD
-The datbase design contains 12 tables and has the following assumptions:
+The database design contains 12 tables and has the following assumptions:
 
 •	A person creates an order that belongs to a restaurant and driver.
 
 •	A driver can also be a student.
 
-•	Ratings for restuarants and drivers are assigned by a person after an order has been delivered.
+•	Ratings for restaurants and drivers are assigned by a person after an order has been delivered.
 
-•	Each restuarant and driver has a score pertaining to them and is represented in the ratings table design.
+•	Each restaurant and driver has a score pertaining to them and is represented in the ratings table design.
 
-•	Each restuarant and driver has a description pertaining to them and is represented in the ratings table design.
+•	Each restaurant and driver has a description pertaining to them and is represented in the ratings table design.
 
 ![Image of 3160 Project EERD](https://github.com/chasey55/3160Project/blob/main/images/EERD.PNG)
 <br/>
@@ -85,6 +85,19 @@ BEGIN
 
 insert into rating (rating_id, person_id, restaurant_id, driver_id, score, description) 
 values(rating_id, person_id, restaurant_id, driver_id, score, descr);
+
+END
+```
+
+Another stored procedure is the 'calculate_avg_rating' procedure. The 'calculate_avg_rating' procedure uses the 'average_rating' function to calculate the average rating from all rating entries.
+
+
+```mysql
+CREATE DEFINER=`root`@`localhost` PROCEDURE `calculate_avg_rating`()
+    DETERMINISTIC
+BEGIN
+
+SELECT average_score();
 
 END
 ```
