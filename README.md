@@ -103,7 +103,7 @@ END
 ```
 
 
-## Web/APP Implementation or Description of Future Work
+## Two Advanced Views
 *text here*
 <br/>
 <br/>
