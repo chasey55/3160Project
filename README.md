@@ -78,7 +78,6 @@ END ;
 
 One stored procedure for the database is the 'add_rating' procedure. The 'add_rating' procedure inserts the record followed by the attributes associated with the product. 
 
-
 ```mysql
 CREATE DEFINER=`root`@`localhost` PROCEDURE `add_rating`(in rating_id int(11), in person_id int(11), restaurant_id int(11), driver_id int(11), score FLOAT, descr VARCHAR(75))
 BEGIN
@@ -91,7 +90,6 @@ END
 
 Another stored procedure is the 'calculate_avg_rating' procedure. The 'calculate_avg_rating' procedure uses the 'average_rating' function to calculate the average rating from all rating entries.
 
-
 ```mysql
 CREATE DEFINER=`root`@`localhost` PROCEDURE `calculate_avg_rating`()
     DETERMINISTIC
@@ -102,11 +100,54 @@ SELECT average_score();
 END
 ```
 
-
 ## Two Advanced Views
 [Advanced Views](https://github.com/chasey55/3160Project/tree/main/Advanced%20Views)
-<br/>
-<br/>
+
+This advanced view finds all restaurants with an average rating of 4 or higher, and displays them in a table.
+
+
+```mysql
+CREATE VIEW `rating_over_4` AS
+    SELECT 
+        `restaurant`.`restaurant_name` AS `Restaurant`,
+        `sub`.`avg_rating` AS `avg_rating`
+    FROM
+        (`restaurant`
+        JOIN (SELECT 
+            `rating`.`restaurant_id` AS `restaurant_id`,
+                AVG(`rating`.`score`) AS `avg_rating`
+        FROM
+            `rating`
+        GROUP BY `rating`.`restaurant_id`) `sub`)
+    WHERE
+        (`restaurant`.`restaurant_id` = `sub`.`restaurant_id`)
+    GROUP BY `restaurant`.`restaurant_name`
+    HAVING (`sub`.`avg_rating` > 4)
+    ORDER BY `sub`.`avg_rating` DESC
+```
+
+This advanced view gets the average rating for each driver, and gives a general description of the quality of the driver based on their average score. It then displays the description in a table. 
+
+```mysql
+CREATE VIEW `driver_description` AS
+    SELECT 
+        `rating`.`driver_id` AS `driver_id`,
+        AVG(`rating`.`score`) AS `avg_score`,
+        (CASE
+            WHEN (AVG(`rating`.`score`) >= 5) THEN 'This is a good driver.'
+            WHEN
+                ((AVG(`rating`.`score`) >= 4)
+                    AND (AVG(`rating`.`score`) < 5))
+            THEN
+                'This is an average driver.'
+            ELSE 'This is a bad driver.'
+        END) AS `Driver Quality Description`
+    FROM
+        `rating`
+    GROUP BY `rating`.`driver_id`
+```
+
+
 ## MySQL Dump
 [SQL Dump File](https://github.com/chasey55/3160Project/tree/main/SQL%20Dump%20File)
 <br/>
