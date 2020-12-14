@@ -147,10 +147,9 @@ CREATE VIEW `driver_description` AS
     GROUP BY `rating`.`driver_id`
 ```
 
-### Indexes
-*text here*
-<br/>
-<br/>
+###
+In MySQL, each foreign key is associated with a foreign key index when it is used in implementation. Only foreign keys were utilized from the rating table for the queries which means it is unnecessary to have extra indexes. The views relate to our use case in mainly utilizing the rating table. For example, in finding a restaurant with a rating higher than 4, we only need to focus on the restaurant and the rating table. Because of this, we only need the foreign key index of restaurant_id to get the most optimal query.
+<br><br>
 ## MySQL Dump
 [SQL Dump File](https://github.com/chasey55/3160Project/tree/main/SQL%20Dump%20File)
 <br/>
