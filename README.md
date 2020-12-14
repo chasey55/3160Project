@@ -104,7 +104,7 @@ END
 
 
 ## Two Advanced Views
-*text here*
+[Advanced Views](https://github.com/chasey55/3160Project/tree/main/Advanced%20Views)
 <br/>
 <br/>
 ## MySQL Dump
