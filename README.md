@@ -147,7 +147,10 @@ CREATE VIEW `driver_description` AS
     GROUP BY `rating`.`driver_id`
 ```
 
-
+### Indexes
+*text here*
+<br/>
+<br/>
 ## MySQL Dump
 [SQL Dump File](https://github.com/chasey55/3160Project/tree/main/SQL%20Dump%20File)
 <br/>
